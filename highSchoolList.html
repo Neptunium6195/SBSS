@@ -93,13 +93,18 @@
 														<a href="highSchoolList.html" class="button icon solid fa-info-circle">Find out more</a>
 													</footer>-->
 												</section>
+												<section>
+														<header class="major">
+															
+														</header>
+												</section>
 													<div style="margin-bottom: 1em;">
 														<label for="filter-topic">Filter by Topic:</label>
 														<select id="filter-topic">
 															<option value="all">All</option>
 															<option value="animals">Animals</option>
-															<option value="environment">Environment</option>
-															<option value="service">Service/Outreach</option>
+															<option value="Service/Outreach">Service/Outreach</option>
+															<option value="community-development">Community Development</option>												
 														</select>
 
 														
@@ -108,8 +113,8 @@
 														<label for="filter-age">Minimum Age:</label>
 														<select id="filter-age">
 															<option value="all">All</option>
-															<option value="14">14+</option>
-															<option value="16">16+</option>
+															<option value="14+">14+</option>
+															<option value="16+">16+</option>
 															<option value="all-ages">All Ages</option>
 														</select>
 													</div>
@@ -151,8 +156,8 @@
 													<span class="image featured"><img src="images/volunteerListImg.jpg" alt="" /></span>
 													
 													
-													<div class="group-box">
-														<div style="display: flex; justify-content: space-between; align-items: center;" data-topic="Service; Outreach" data-age="16+">
+													<div class="group-box" data-topic="Service/Outreach" data-age="16+">
+														<div style="display: flex; justify-content: space-between; align-items: center;">
 															<div>
 																<h1 style="font-size: 1.3em; margin-bottom: 0.3em;">Blessings For Your Soles</h1>
 																<b>Service/Outreach, 16+</b>
@@ -162,8 +167,8 @@
 														</div>
 													</div>
 
-													<div class="group-box">
-														<div style="display: flex; justify-content: space-between; align-items: center;" data-topic="Service; Outreach" data-age="14+">
+													<div class="group-box" data-topic="Service/Outreach" data-age="14+">
+														<div style="display: flex; justify-content: space-between; align-items: center;">
 															<div>
 																<h1 style="font-size: 1.3em; margin-bottom: 0.3em;">South Bay Food Initiative</h1>
 																<b>Service/Outreach, 14+</b>
@@ -173,8 +178,8 @@
 														</div>	
 													</div>
 
-													<div class="group-box">
-													<div style="display: flex; justify-content: space-between; align-items: center;" data-topic="Animals; Community Development" data-age="16+">
+													<div class="group-box" data-topic="animals" data-age="16+">
+													<div style="display: flex; justify-content: space-between; align-items: center;" >
 														<div>
 														<h1 style="font-size: 1.3em; margin-bottom: 0.3em;">Feline Good Social Club</h1>
 														<b>Animals/Community Development, 16+</b>
@@ -184,8 +189,8 @@
 													</div>
 													</div>
 
-													<div class="group-box">
-													<div style="display: flex; justify-content: space-between; align-items: center;">
+													<div class="group-box" data-topic="animals" data-age="16+">
+													<div style="display: flex; justify-content: space-between; align-items: center;" >
 														<div>
 														<h1 style="font-size: 1.3em; margin-bottom: 0.3em;">LA County Animal Care & Control</h1>
 														<b>Animals, 16+</b>
@@ -195,8 +200,8 @@
 													</div>
 													</div>
 
-													<div class="group-box">
-													<div style="display: flex; justify-content: space-between; align-items: center;">
+													<div class="group-box" data-topic="animals" data-age="all-ages">
+													<div style="display: flex; justify-content: space-between; align-items: center;" >
 														<div>
 														<h1 style="font-size: 1.3em; margin-bottom: 0.3em;">LA County Animal Care & Control</h1>
 														<b>Animals, ALL AGES</b>
@@ -207,7 +212,7 @@
 													</div>
 													</div>
 
-													<div class="group-box">
+													<!--<div class="group-box">
 														<div style="display: flex; justify-content: space-between; align-items: center;">
 															<div>
 																<h1 style="font-size: 1.3em; margin-bottom: 0.3em;">Noah's Bark Dog Rescue</h1>
@@ -216,13 +221,13 @@
 															</div>
 															<a href="https://www.lafoodbank.org/volunteer/" class="button small-btn icon solid fa-arrow-circle-right">To site:</a>
 														</div>
-													</div>
+													</div>-->
 
-													<div class="group-box">
+													<div class="group-box" data-topic="community-development" data-age="14+">
 														<div style="display: flex; justify-content: space-between; align-items: center;">
 															<div>
 															<h1 style="font-size: 1.3em; margin-bottom: 0.3em;">LA Food Bank</h1>
-															<b>Community Service, 14+</b>
+															<b>Community Development, 14+</b>
 															<p style="margin-bottom: 0.3em;">If you are passionate about helping others and giving to your community, volunteer <br>at the LA Regional Food Bank!!</p>
 															</div>
 															<a href="https://www.lafoodbank.org/volunteer/" class="button small-btn icon solid fa-arrow-circle-right">To site:</a>
@@ -353,6 +358,7 @@
 		</div>
 
 		<!-- Scripts -->
+			<script src="assets/js/filter.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
