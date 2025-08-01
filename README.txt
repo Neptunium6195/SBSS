@@ -1,3 +1,5 @@
+This is a website that lists volunteer oppurtunities (intentionally for High Schoolers) in the South Bay area. Feel free to use this as a template to create a website for your own community. Used the ZeroFour template from HTML5 UP. 
+
 ZeroFour by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
