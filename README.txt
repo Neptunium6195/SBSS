@@ -1,4 +1,3 @@
-[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
 This is a website that lists volunteer oppurtunities (intentionally for High Schoolers) in the South Bay area. Feel free to use this as a template to create a website for your own community. 
 The purpose of this project is to promote volunteering for high school students to foster a better community. Personally, I couldn't find many opportunities but when I did find one I learned that they lacked volunteers and support. Thus, I created this site.
 I created this project using the ZeroFour template from HTML5 UP, replaced the contents, modified the overall layout to best suit the purpose of the website, and created a filtering algorithm.
